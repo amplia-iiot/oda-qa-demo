@@ -11,7 +11,7 @@
     <description>Assembler for ODA QA</description>
 
     <properties>
-        <oda.version>3.28.4-SNAPSHOT</oda.version>
+        <oda.version>3.30.2-SNAPSHOT</oda.version>
     </properties>
 
     <build>
@@ -215,6 +215,17 @@
             <groupId>es.amplia.oda.hardware</groupId>
             <artifactId>diozero</artifactId>
             <version>${oda.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>es.amplia.oda.connector</groupId>
+            <artifactId>iec104</artifactId>
+            <version>${oda.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>es.amplia.oda.hardware</groupId>
+            <artifactId>i2c</artifactId>
+            <version>${oda.version}</version>
+            <classifier>arm</classifier>
         </dependency>
     </dependencies>
 

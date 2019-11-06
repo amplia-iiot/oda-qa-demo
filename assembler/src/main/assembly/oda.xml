@@ -66,6 +66,8 @@
                 <include>es.amplia.oda.datastreams:adc</include>
                 <include>es.amplia.oda.hardware:diozero</include>
                 <include>es.amplia.oda.dispatcher:opengate</include>
+                <include>es.amplia.oda.connector:iec104</include>
+                <include>es.amplia.oda.hardware:i2c</include>
             </includes>
             <outputDirectory>deploy</outputDirectory>
             <outputFileNameMapping>
